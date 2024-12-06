@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2170988427074214200}
   - component: {fileID: 6375682900904422985}
-  m_Layer: 0
+  m_Layer: 25
   m_Name: block_stone1_2_LOD_group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24,16 +24,17 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1543387582766662530}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1016913138935511224}
   - {fileID: 6763526618115913393}
   - {fileID: 6535027644105456077}
   - {fileID: 1665691594422393941}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!205 &6375682900904422985
 LODGroup:
@@ -77,7 +78,7 @@ GameObject:
   - component: {fileID: 1665691594422393941}
   - component: {fileID: 8497653368005437451}
   - component: {fileID: 5206113061303707355}
-  m_Layer: 0
+  m_Layer: 25
   m_Name: block_stone1_2_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,12 +92,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2612887450338145856}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2170988427074214200}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8497653368005437451
 MeshFilter:
@@ -117,6 +119,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -158,7 +161,7 @@ GameObject:
   - component: {fileID: 6535027644105456077}
   - component: {fileID: 2316366645506631465}
   - component: {fileID: 818782623398151153}
-  m_Layer: 0
+  m_Layer: 25
   m_Name: block_stone1_2_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,12 +175,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5802451421511570231}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2170988427074214200}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2316366645506631465
 MeshFilter:
@@ -198,6 +202,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -239,7 +244,7 @@ GameObject:
   - component: {fileID: 1016913138935511224}
   - component: {fileID: 1986834396731274025}
   - component: {fileID: 6929737425740224265}
-  m_Layer: 0
+  m_Layer: 25
   m_Name: block_stone1_2_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -253,12 +258,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7809253705885181772}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2170988427074214200}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1986834396731274025
 MeshFilter:
@@ -279,6 +285,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -320,7 +327,7 @@ GameObject:
   - component: {fileID: 6763526618115913393}
   - component: {fileID: 3088534079143461704}
   - component: {fileID: 51203422637170781}
-  m_Layer: 0
+  m_Layer: 25
   m_Name: block_stone1_2_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -334,12 +341,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8217070884032745543}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2170988427074214200}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3088534079143461704
 MeshFilter:
@@ -360,6 +368,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
